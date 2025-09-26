@@ -1,17 +1,135 @@
+
+
 body {
-    background-color: black;
-}
-
-
-h1{
-    margin: auto; 
-    margin-top: 30px;
-    color: white;
+    background-color: #f9f9f9;
+    color: #161616;
+    margin: 0; 
+    padding: 0;
 
 }
 
-img{
-  border-radius: 100px; 
-  margin-top: 3opx; 
 
+
+.encabezado{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  
+  background-color: #161616;
+}
+
+.encabezado p{
+  margin: 0;
+  padding-top: 10%;
+  text-align: center;
+  line-height: 1;
+  color: #f9f9f9;
+  text-align: center;
+  font-size: 100px;
+
+
+}
+
+h2{
+  font-family:  sans-serif;
+  font-weight: lighter;
+  font-size: 23px;
+  color: #f9f9f9;
+  text-align: center;
+  margin-top: 8%;
+ 
+}
+
+
+/* CUERPO */
+
+.cuerpo{
+
+  margin: 10% 15% 0 15%;
+}
+
+.cuerpo_img{
+  width: 40%;
+
+}
+
+
+.cuerpo_img, .contenido{
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+.contenido{
+  width: 35%;
+  padding-left: 15%;
+
+}
+
+.contenido_titulo{
+  margin-top: 25%;
+  font-size:30px;
+
+}
+
+.contenido_sobremi{
+  text-align:left;
+  font-size: 20px;
+  line-height: 1.5;
+  
+
+}
+
+/*APTITUDES*/
+
+/*img aptitudes*/
+.cajaImagenes{
+  margin-top: 10%;
+  width: 100%;
+}
+
+/* caja que contiene la imagen */
+.cajaImg {
+  display: inline-block;
+  width: 120px;   
+  height: auto;
+  text-align: center;
+  padding: 4%;
+}
+
+/* la imagen queda del tamaño de la caja que la contiene */
+.cajaImg img {
+  width: 100%;  
+  height: auto;
+}
+
+
+
+
+.cajaAptitudes {
+    width: auto;  
+    margin-bottom: 15%;             
+   
+         
+    
+}
+
+
+
+.aptitudes{
+  width: 18%;
+  vertical-align: top;
+  display: inline-block;
+  padding: 3%;
+  font-size: 14px;
+}
+
+
+
+.aptitudes_texto{
+  margin-top: -5%;
+  color: grey;
+  font-weight: lighter;
+  margin-bottom: 30%;
 }
